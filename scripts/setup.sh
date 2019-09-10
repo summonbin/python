@@ -47,5 +47,5 @@ export PATH="$PYENV_ROOT/bin:$PATH"
 eval "$(pyenv init -)"
 
 # Set Python version
-pyenv install "$TARGET_PYTHON_VERSION"
+pyenv install -s "$TARGET_PYTHON_VERSION"
 export PYENV_VERSION="$TARGET_PYTHON_VERSION"
